@@ -1,0 +1,1 @@
+  -L"D:/net_lab/net-lab-2022/./Npcap/Lib"  -L"D:/net_lab/net-lab-2022/./Npcap/Lib/x64"  -lwpcap -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

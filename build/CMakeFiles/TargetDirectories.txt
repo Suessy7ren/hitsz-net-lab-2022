@@ -1,0 +1,10 @@
+D:/net_lab/net-lab-2022/build/CMakeFiles/main.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/eth_in.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/eth_out.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/arp_test.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/ip_test.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/ip_frag_test.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/icmp_test.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/test.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/edit_cache.dir
+D:/net_lab/net-lab-2022/build/CMakeFiles/rebuild_cache.dir
