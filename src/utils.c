@@ -75,4 +75,19 @@ uint8_t ip_prefix_match(uint8_t *ipa, uint8_t *ipb)
 uint16_t checksum16(uint16_t *data, size_t len)
 {
     // TO-DO
+    uint32_t sum = 0;
+    int turns = len/2;
+    for(int i = 0; i < turns; i++){
+        // sum += (uint32_t)data[i];
+        sum += data[i];
+    }
+    if(len%2 != 0){
+        // sum += (uint32_t)(data[turns] >> 8);
+        sum += (data[turns] >> 8);
+    }
+    while((sum >> 16) != 0){
+        sum = (sum >> 16) + ((sum << 16) >> 16);
+    }
+    sum = ~sum;
+    return (uint16_t)sum;
 }
