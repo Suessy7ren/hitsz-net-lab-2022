@@ -1,10 +1,10 @@
-Start testing: May 02 21:36 ?D1¨²¡À¨º¡Á?¨º¡À??
+Start testing: May 04 00:27 ?D1¨²¡À¨º¡Á?¨º¡À??
 ----------------------------------------------------------
-4/6 Testing: ip_test
-4/6 Test: ip_test
-Command: "D:/net_lab/net-lab-2022/build/ip_test.exe" "D:/net_lab/net-lab-2022/testing/data/ip_test"
+6/6 Testing: icmp_test
+6/6 Test: icmp_test
+Command: "D:/net_lab/net-lab-2022/build/icmp_test.exe" "D:/net_lab/net-lab-2022/testing/data/icmp_test"
 Directory: D:/net_lab/net-lab-2022/build
-"ip_test" start time: May 02 21:36 ?D1¨²¡À¨º¡Á?¨º¡À??
+"icmp_test" start time: May 04 00:27 ?D1¨²¡À¨º¡Á?¨º¡À??
 Output:
 ----------------------------------------------------------
 [0;34mTest begin.
@@ -37,15 +37,19 @@ Sample input all processed, checking output
 [0;32mPacket 7: no differences
 [0;32mPacket 8: no differences
 [0;32mPacket 9: no differences
+[0;32mPacket 10: no differences
+[0;32mPacket 11: no differences
+[0;32mPacket 12: no differences
+[0;32mPacket 13: no differences
 [1;32m====> All packets are the same to the demo.
 [0m[1;33mFor this test, log is only a reference. Your implementation is OK if your pcap file is the same to the demo pcap file.
 [0m
 <end of output>
-Test time =   0.07 sec
+Test time =   0.11 sec
 ----------------------------------------------------------
 Test Passed.
-"ip_test" end time: May 02 21:36 ?D1¨²¡À¨º¡Á?¨º¡À??
-"ip_test" time elapsed: 00:00:00
+"icmp_test" end time: May 04 00:27 ?D1¨²¡À¨º¡Á?¨º¡À??
+"icmp_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 02 21:36 ?D1¨²¡À¨º¡Á?¨º¡À??
+End testing: May 04 00:27 ?D1¨²¡À¨º¡Á?¨º¡À??
